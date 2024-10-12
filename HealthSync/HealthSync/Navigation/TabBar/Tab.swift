@@ -7,7 +7,7 @@
 
 enum Tab: String, CaseIterable {
     case home = "Home"
-    case services = "Likes"
+    case services = "Services"
     case partners = "Partners"
     case activity = "Activity"
     
