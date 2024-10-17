@@ -10,9 +10,22 @@
 		7B3D64CF2CB6E959002303F9 /* HealthSync.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthSync.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		7B06C9D22CC1C6960026D5D1 /* Exceptions for "HealthSync" folder in "HealthSync" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 7B3D64CE2CB6E959002303F9 /* HealthSync */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		7B3D64D12CB6E959002303F9 /* HealthSync */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				7B06C9D22CC1C6960026D5D1 /* Exceptions for "HealthSync" folder in "HealthSync" target */,
+			);
 			path = HealthSync;
 			sourceTree = "<group>";
 		};
@@ -255,6 +268,7 @@
 				DEVELOPMENT_TEAM = SDD6GS4SZP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HealthSync/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Health Sync";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -289,6 +303,7 @@
 				DEVELOPMENT_TEAM = SDD6GS4SZP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HealthSync/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Health Sync";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
