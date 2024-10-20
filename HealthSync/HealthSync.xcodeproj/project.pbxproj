@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		7B06C9D82CC283FC0026D5D1 /* YouTubePlayerKit in Frameworks */ = {isa = PBXBuildFile; productRef = 7B06C9D72CC283FC0026D5D1 /* YouTubePlayerKit */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		7B3D64CF2CB6E959002303F9 /* HealthSync.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthSync.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -36,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B06C9D82CC283FC0026D5D1 /* YouTubePlayerKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,7 @@
 			);
 			name = HealthSync;
 			packageProductDependencies = (
+				7B06C9D72CC283FC0026D5D1 /* YouTubePlayerKit */,
 			);
 			productName = HealthSync;
 			productReference = 7B3D64CF2CB6E959002303F9 /* HealthSync.app */;
@@ -107,6 +113,9 @@
 			);
 			mainGroup = 7B3D64C62CB6E959002303F9;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				7B06C9D62CC283FC0026D5D1 /* XCRemoteSwiftPackageReference "YouTubePlayerKit" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 7B3D64D02CB6E959002303F9 /* Products */;
 			projectDirPath = "";
@@ -349,6 +358,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7B06C9D62CC283FC0026D5D1 /* XCRemoteSwiftPackageReference "YouTubePlayerKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SvenTiigi/YouTubePlayerKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.9.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7B06C9D72CC283FC0026D5D1 /* YouTubePlayerKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7B06C9D62CC283FC0026D5D1 /* XCRemoteSwiftPackageReference "YouTubePlayerKit" */;
+			productName = YouTubePlayerKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7B3D64C72CB6E959002303F9 /* Project object */;
 }
