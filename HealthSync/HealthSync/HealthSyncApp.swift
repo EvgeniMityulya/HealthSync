@@ -11,7 +11,9 @@ import SwiftUI
 struct HealthSyncApp: App {
     var body: some Scene {
         WindowGroup {
-            Temp()
+            NavigationView {
+                MealDetailView()
+            }
         }
     }
 }
