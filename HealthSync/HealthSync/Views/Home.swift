@@ -21,14 +21,18 @@ struct Home: View {
                 Text("Home")
                     .tag(Tab.home)
                 
+                
+                Text("Activity")
+                    .tag(Tab.activity)
+                
                 Text("Services")
                     .tag(Tab.services)
                 
                 Text("Partners")
-                    .tag(Tab.partners)
+                    .tag(Tab.partners) 
                 
-                Text("Activity")
-                    .tag(Tab.activity)
+                Text("Account")
+                    .tag(Tab.profile)
             }
             .toolbar(.hidden, for: .tabBar)
             

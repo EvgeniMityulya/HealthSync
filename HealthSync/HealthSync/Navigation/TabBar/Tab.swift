@@ -21,16 +21,18 @@
 /// consistency and ease of use throughout the app.
 enum Tab: String, CaseIterable {
     case home = "Home"
-    case services = "Services"
-    case partners = "Partners"
-    case activity = "Activity"
+    case activity = "Social"
+    case services = "Tracker"
+    case partners = "Calculator"
+    case profile = "Profile"
     
     var systemImage: String {
         switch self {
         case .home: return "house"
-        case .services: return "envelope.open.badge.clock"
-        case .partners: return "hand.raised"
-        case .activity: return "bell"
+        case .activity: return "person.3.fill"
+        case .services: return "figure.run"
+        case .partners: return "fork.knife"
+        case .profile: return "person.fill"
         }
     }
     
