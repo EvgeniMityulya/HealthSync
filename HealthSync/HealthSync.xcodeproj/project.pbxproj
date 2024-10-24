@@ -8,32 +8,66 @@
 
 /* Begin PBXBuildFile section */
 		7B06C9D82CC283FC0026D5D1 /* YouTubePlayerKit in Frameworks */ = {isa = PBXBuildFile; productRef = 7B06C9D72CC283FC0026D5D1 /* YouTubePlayerKit */; };
+		7B06CB332CCAECE80026D5D1 /* Lato-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7B06CB0F2CCAECE80026D5D1 /* Lato-Black.ttf */; };
+		7B06CB342CCAECE80026D5D1 /* Lato-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7B06CB102CCAECE80026D5D1 /* Lato-BlackItalic.ttf */; };
+		7B06CB352CCAECE80026D5D1 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7B06CB112CCAECE80026D5D1 /* Lato-Bold.ttf */; };
+		7B06CB362CCAECE80026D5D1 /* Lato-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7B06CB122CCAECE80026D5D1 /* Lato-BoldItalic.ttf */; };
+		7B06CB372CCAECE80026D5D1 /* Lato-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7B06CB132CCAECE80026D5D1 /* Lato-Italic.ttf */; };
+		7B06CB382CCAECE80026D5D1 /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7B06CB142CCAECE80026D5D1 /* Lato-Light.ttf */; };
+		7B06CB392CCAECE80026D5D1 /* Lato-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7B06CB152CCAECE80026D5D1 /* Lato-LightItalic.ttf */; };
+		7B06CB3A2CCAECE80026D5D1 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7B06CB162CCAECE80026D5D1 /* Lato-Regular.ttf */; };
+		7B06CB3B2CCAECE80026D5D1 /* Lato-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7B06CB172CCAECE80026D5D1 /* Lato-Thin.ttf */; };
+		7B06CB3C2CCAECE80026D5D1 /* Lato-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7B06CB182CCAECE80026D5D1 /* Lato-ThinItalic.ttf */; };
+		7B06CB3D2CCAECE80026D5D1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B06CB222CCAECE80026D5D1 /* Preview Assets.xcassets */; };
+		7B06CB3E2CCAECE80026D5D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B06CB2E2CCAECE80026D5D1 /* Assets.xcassets */; };
+		7B06CB402CCAECE80026D5D1 /* Extensions + Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B06CB0D2CCAECE80026D5D1 /* Extensions + Font.swift */; };
+		7B06CB412CCAECE80026D5D1 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B06CB1B2CCAECE80026D5D1 /* CustomTabBar.swift */; };
+		7B06CB422CCAECE80026D5D1 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B06CB1C2CCAECE80026D5D1 /* Tab.swift */; };
+		7B06CB432CCAECE80026D5D1 /* TabItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B06CB1D2CCAECE80026D5D1 /* TabItem.swift */; };
+		7B06CB442CCAECE80026D5D1 /* TabPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B06CB1E2CCAECE80026D5D1 /* TabPosition.swift */; };
+		7B06CB452CCAECE80026D5D1 /* TabShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B06CB1F2CCAECE80026D5D1 /* TabShape.swift */; };
+		7B06CB462CCAECE80026D5D1 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B06CB242CCAECE80026D5D1 /* Calculator.swift */; };
+		7B06CB472CCAECE80026D5D1 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B06CB252CCAECE80026D5D1 /* Home.swift */; };
+		7B06CB482CCAECE80026D5D1 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B06CB262CCAECE80026D5D1 /* Profile.swift */; };
+		7B06CB492CCAECE80026D5D1 /* Social.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B06CB272CCAECE80026D5D1 /* Social.swift */; };
+		7B06CB4A2CCAECE80026D5D1 /* Tracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B06CB282CCAECE80026D5D1 /* Tracker.swift */; };
+		7B06CB4C2CCAECE80026D5D1 /* MealDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B06CB2B2CCAECE80026D5D1 /* MealDetailView.swift */; };
+		7B06CB4D2CCAECE80026D5D1 /* MealDetailView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B06CB2C2CCAECE80026D5D1 /* MealDetailView2.swift */; };
+		7B06CB4E2CCAECE80026D5D1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B06CB2F2CCAECE80026D5D1 /* ContentView.swift */; };
+		7B06CB4F2CCAECE80026D5D1 /* HealthSyncApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B06CB302CCAECE80026D5D1 /* HealthSyncApp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7B06CB0D2CCAECE80026D5D1 /* Extensions + Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions + Font.swift"; sourceTree = "<group>"; };
+		7B06CB0F2CCAECE80026D5D1 /* Lato-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Black.ttf"; sourceTree = "<group>"; };
+		7B06CB102CCAECE80026D5D1 /* Lato-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BlackItalic.ttf"; sourceTree = "<group>"; };
+		7B06CB112CCAECE80026D5D1 /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
+		7B06CB122CCAECE80026D5D1 /* Lato-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BoldItalic.ttf"; sourceTree = "<group>"; };
+		7B06CB132CCAECE80026D5D1 /* Lato-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Italic.ttf"; sourceTree = "<group>"; };
+		7B06CB142CCAECE80026D5D1 /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
+		7B06CB152CCAECE80026D5D1 /* Lato-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-LightItalic.ttf"; sourceTree = "<group>"; };
+		7B06CB162CCAECE80026D5D1 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
+		7B06CB172CCAECE80026D5D1 /* Lato-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Thin.ttf"; sourceTree = "<group>"; };
+		7B06CB182CCAECE80026D5D1 /* Lato-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-ThinItalic.ttf"; sourceTree = "<group>"; };
+		7B06CB1B2CCAECE80026D5D1 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		7B06CB1C2CCAECE80026D5D1 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		7B06CB1D2CCAECE80026D5D1 /* TabItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItem.swift; sourceTree = "<group>"; };
+		7B06CB1E2CCAECE80026D5D1 /* TabPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabPosition.swift; sourceTree = "<group>"; };
+		7B06CB1F2CCAECE80026D5D1 /* TabShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabShape.swift; sourceTree = "<group>"; };
+		7B06CB222CCAECE80026D5D1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7B06CB242CCAECE80026D5D1 /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
+		7B06CB252CCAECE80026D5D1 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		7B06CB262CCAECE80026D5D1 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		7B06CB272CCAECE80026D5D1 /* Social.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Social.swift; sourceTree = "<group>"; };
+		7B06CB282CCAECE80026D5D1 /* Tracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tracker.swift; sourceTree = "<group>"; };
+		7B06CB2B2CCAECE80026D5D1 /* MealDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetailView.swift; sourceTree = "<group>"; };
+		7B06CB2C2CCAECE80026D5D1 /* MealDetailView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetailView2.swift; sourceTree = "<group>"; };
+		7B06CB2E2CCAECE80026D5D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7B06CB2F2CCAECE80026D5D1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7B06CB302CCAECE80026D5D1 /* HealthSyncApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthSyncApp.swift; sourceTree = "<group>"; };
+		7B06CB312CCAECE80026D5D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7B3D64CF2CB6E959002303F9 /* HealthSync.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthSync.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		7B06C9D22CC1C6960026D5D1 /* Exceptions for "HealthSync" folder in "HealthSync" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 7B3D64CE2CB6E959002303F9 /* HealthSync */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		7B3D64D12CB6E959002303F9 /* HealthSync */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				7B06C9D22CC1C6960026D5D1 /* Exceptions for "HealthSync" folder in "HealthSync" target */,
-			);
-			path = HealthSync;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		7B3D64CC2CB6E959002303F9 /* Frameworks */ = {
@@ -47,10 +81,109 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7B06CB0E2CCAECE80026D5D1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7B06CB0D2CCAECE80026D5D1 /* Extensions + Font.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7B06CB192CCAECE80026D5D1 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				7B06CB0F2CCAECE80026D5D1 /* Lato-Black.ttf */,
+				7B06CB102CCAECE80026D5D1 /* Lato-BlackItalic.ttf */,
+				7B06CB112CCAECE80026D5D1 /* Lato-Bold.ttf */,
+				7B06CB122CCAECE80026D5D1 /* Lato-BoldItalic.ttf */,
+				7B06CB132CCAECE80026D5D1 /* Lato-Italic.ttf */,
+				7B06CB142CCAECE80026D5D1 /* Lato-Light.ttf */,
+				7B06CB152CCAECE80026D5D1 /* Lato-LightItalic.ttf */,
+				7B06CB162CCAECE80026D5D1 /* Lato-Regular.ttf */,
+				7B06CB172CCAECE80026D5D1 /* Lato-Thin.ttf */,
+				7B06CB182CCAECE80026D5D1 /* Lato-ThinItalic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		7B06CB1A2CCAECE80026D5D1 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				7B06CB0E2CCAECE80026D5D1 /* Extensions */,
+				7B06CB192CCAECE80026D5D1 /* Fonts */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		7B06CB202CCAECE80026D5D1 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				7B06CB1B2CCAECE80026D5D1 /* CustomTabBar.swift */,
+				7B06CB1C2CCAECE80026D5D1 /* Tab.swift */,
+				7B06CB1D2CCAECE80026D5D1 /* TabItem.swift */,
+				7B06CB1E2CCAECE80026D5D1 /* TabPosition.swift */,
+				7B06CB1F2CCAECE80026D5D1 /* TabShape.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		7B06CB212CCAECE80026D5D1 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				7B06CB202CCAECE80026D5D1 /* TabBar */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		7B06CB232CCAECE80026D5D1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7B06CB222CCAECE80026D5D1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7B06CB292CCAECE80026D5D1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7B06CB252CCAECE80026D5D1 /* Home.swift */,
+				7B06CB272CCAECE80026D5D1 /* Social.swift */,
+				7B06CB282CCAECE80026D5D1 /* Tracker.swift */,
+				7B06CB242CCAECE80026D5D1 /* Calculator.swift */,
+				7B06CB262CCAECE80026D5D1 /* Profile.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7B06CB2D2CCAECE80026D5D1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7B06CB292CCAECE80026D5D1 /* Views */,
+				7B06CB2B2CCAECE80026D5D1 /* MealDetailView.swift */,
+				7B06CB2C2CCAECE80026D5D1 /* MealDetailView2.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7B06CB322CCAECE80026D5D1 /* HealthSync */ = {
+			isa = PBXGroup;
+			children = (
+				7B06CB1A2CCAECE80026D5D1 /* Common */,
+				7B06CB212CCAECE80026D5D1 /* Navigation */,
+				7B06CB232CCAECE80026D5D1 /* Preview Content */,
+				7B06CB2D2CCAECE80026D5D1 /* Views */,
+				7B06CB2E2CCAECE80026D5D1 /* Assets.xcassets */,
+				7B06CB2F2CCAECE80026D5D1 /* ContentView.swift */,
+				7B06CB302CCAECE80026D5D1 /* HealthSyncApp.swift */,
+				7B06CB312CCAECE80026D5D1 /* Info.plist */,
+			);
+			path = HealthSync;
+			sourceTree = "<group>";
+		};
 		7B3D64C62CB6E959002303F9 = {
 			isa = PBXGroup;
 			children = (
-				7B3D64D12CB6E959002303F9 /* HealthSync */,
+				7B06CB322CCAECE80026D5D1 /* HealthSync */,
 				7B3D64D02CB6E959002303F9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -77,9 +210,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				7B3D64D12CB6E959002303F9 /* HealthSync */,
 			);
 			name = HealthSync;
 			packageProductDependencies = (
@@ -131,6 +261,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B06CB332CCAECE80026D5D1 /* Lato-Black.ttf in Resources */,
+				7B06CB342CCAECE80026D5D1 /* Lato-BlackItalic.ttf in Resources */,
+				7B06CB352CCAECE80026D5D1 /* Lato-Bold.ttf in Resources */,
+				7B06CB362CCAECE80026D5D1 /* Lato-BoldItalic.ttf in Resources */,
+				7B06CB372CCAECE80026D5D1 /* Lato-Italic.ttf in Resources */,
+				7B06CB382CCAECE80026D5D1 /* Lato-Light.ttf in Resources */,
+				7B06CB392CCAECE80026D5D1 /* Lato-LightItalic.ttf in Resources */,
+				7B06CB3A2CCAECE80026D5D1 /* Lato-Regular.ttf in Resources */,
+				7B06CB3B2CCAECE80026D5D1 /* Lato-Thin.ttf in Resources */,
+				7B06CB3C2CCAECE80026D5D1 /* Lato-ThinItalic.ttf in Resources */,
+				7B06CB3D2CCAECE80026D5D1 /* Preview Assets.xcassets in Resources */,
+				7B06CB3E2CCAECE80026D5D1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +283,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B06CB402CCAECE80026D5D1 /* Extensions + Font.swift in Sources */,
+				7B06CB412CCAECE80026D5D1 /* CustomTabBar.swift in Sources */,
+				7B06CB422CCAECE80026D5D1 /* Tab.swift in Sources */,
+				7B06CB432CCAECE80026D5D1 /* TabItem.swift in Sources */,
+				7B06CB442CCAECE80026D5D1 /* TabPosition.swift in Sources */,
+				7B06CB452CCAECE80026D5D1 /* TabShape.swift in Sources */,
+				7B06CB462CCAECE80026D5D1 /* Calculator.swift in Sources */,
+				7B06CB472CCAECE80026D5D1 /* Home.swift in Sources */,
+				7B06CB482CCAECE80026D5D1 /* Profile.swift in Sources */,
+				7B06CB492CCAECE80026D5D1 /* Social.swift in Sources */,
+				7B06CB4A2CCAECE80026D5D1 /* Tracker.swift in Sources */,
+				7B06CB4C2CCAECE80026D5D1 /* MealDetailView.swift in Sources */,
+				7B06CB4D2CCAECE80026D5D1 /* MealDetailView2.swift in Sources */,
+				7B06CB4E2CCAECE80026D5D1 /* ContentView.swift in Sources */,
+				7B06CB4F2CCAECE80026D5D1 /* HealthSyncApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,7 +440,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -318,7 +475,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

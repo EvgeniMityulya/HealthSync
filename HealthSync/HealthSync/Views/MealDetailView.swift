@@ -139,7 +139,6 @@ struct MealDetailView: View {
                 }
                 .tabViewStyle(PageTabViewStyle(indexDisplayMode: .never))
             }
-            
         }
         .toolbar {
             ToolbarItem(placement: .topBarLeading) {
