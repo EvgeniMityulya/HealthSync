@@ -31,10 +31,11 @@
 		7B06CB482CCAECE80026D5D1 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B06CB262CCAECE80026D5D1 /* Profile.swift */; };
 		7B06CB492CCAECE80026D5D1 /* Social.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B06CB272CCAECE80026D5D1 /* Social.swift */; };
 		7B06CB4A2CCAECE80026D5D1 /* Tracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B06CB282CCAECE80026D5D1 /* Tracker.swift */; };
-		7B06CB4C2CCAECE80026D5D1 /* MealDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B06CB2B2CCAECE80026D5D1 /* MealDetailView.swift */; };
-		7B06CB4D2CCAECE80026D5D1 /* MealDetailView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B06CB2C2CCAECE80026D5D1 /* MealDetailView2.swift */; };
+		7B06CB4D2CCAECE80026D5D1 /* MealDetailViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B06CB2C2CCAECE80026D5D1 /* MealDetailViews.swift */; };
 		7B06CB4E2CCAECE80026D5D1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B06CB2F2CCAECE80026D5D1 /* ContentView.swift */; };
 		7B06CB4F2CCAECE80026D5D1 /* HealthSyncApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B06CB302CCAECE80026D5D1 /* HealthSyncApp.swift */; };
+		7B06CB512CCAFC590026D5D1 /* MealView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B06CB502CCAFC590026D5D1 /* MealView.swift */; };
+		7B06CB552CCAFCB00026D5D1 /* Dish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B06CB542CCAFCAD0026D5D1 /* Dish.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,12 +61,13 @@
 		7B06CB262CCAECE80026D5D1 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		7B06CB272CCAECE80026D5D1 /* Social.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Social.swift; sourceTree = "<group>"; };
 		7B06CB282CCAECE80026D5D1 /* Tracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tracker.swift; sourceTree = "<group>"; };
-		7B06CB2B2CCAECE80026D5D1 /* MealDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetailView.swift; sourceTree = "<group>"; };
-		7B06CB2C2CCAECE80026D5D1 /* MealDetailView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetailView2.swift; sourceTree = "<group>"; };
+		7B06CB2C2CCAECE80026D5D1 /* MealDetailViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetailViews.swift; sourceTree = "<group>"; };
 		7B06CB2E2CCAECE80026D5D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7B06CB2F2CCAECE80026D5D1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7B06CB302CCAECE80026D5D1 /* HealthSyncApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthSyncApp.swift; sourceTree = "<group>"; };
 		7B06CB312CCAECE80026D5D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B06CB502CCAFC590026D5D1 /* MealView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealView.swift; sourceTree = "<group>"; };
+		7B06CB542CCAFCAD0026D5D1 /* Dish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dish.swift; sourceTree = "<group>"; };
 		7B3D64CF2CB6E959002303F9 /* HealthSync.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthSync.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -159,8 +161,8 @@
 			isa = PBXGroup;
 			children = (
 				7B06CB292CCAECE80026D5D1 /* Views */,
-				7B06CB2B2CCAECE80026D5D1 /* MealDetailView.swift */,
-				7B06CB2C2CCAECE80026D5D1 /* MealDetailView2.swift */,
+				7B06CB2C2CCAECE80026D5D1 /* MealDetailViews.swift */,
+				7B06CB502CCAFC590026D5D1 /* MealView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -168,6 +170,7 @@
 		7B06CB322CCAECE80026D5D1 /* HealthSync */ = {
 			isa = PBXGroup;
 			children = (
+				7B06CB522CCAFC990026D5D1 /* Models */,
 				7B06CB1A2CCAECE80026D5D1 /* Common */,
 				7B06CB212CCAECE80026D5D1 /* Navigation */,
 				7B06CB232CCAECE80026D5D1 /* Preview Content */,
@@ -178,6 +181,14 @@
 				7B06CB312CCAECE80026D5D1 /* Info.plist */,
 			);
 			path = HealthSync;
+			sourceTree = "<group>";
+		};
+		7B06CB522CCAFC990026D5D1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7B06CB542CCAFCAD0026D5D1 /* Dish.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		7B3D64C62CB6E959002303F9 = {
@@ -284,6 +295,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B06CB402CCAECE80026D5D1 /* Extensions + Font.swift in Sources */,
+				7B06CB552CCAFCB00026D5D1 /* Dish.swift in Sources */,
 				7B06CB412CCAECE80026D5D1 /* CustomTabBar.swift in Sources */,
 				7B06CB422CCAECE80026D5D1 /* Tab.swift in Sources */,
 				7B06CB432CCAECE80026D5D1 /* TabItem.swift in Sources */,
@@ -292,10 +304,10 @@
 				7B06CB462CCAECE80026D5D1 /* Calculator.swift in Sources */,
 				7B06CB472CCAECE80026D5D1 /* Home.swift in Sources */,
 				7B06CB482CCAECE80026D5D1 /* Profile.swift in Sources */,
+				7B06CB512CCAFC590026D5D1 /* MealView.swift in Sources */,
 				7B06CB492CCAECE80026D5D1 /* Social.swift in Sources */,
 				7B06CB4A2CCAECE80026D5D1 /* Tracker.swift in Sources */,
-				7B06CB4C2CCAECE80026D5D1 /* MealDetailView.swift in Sources */,
-				7B06CB4D2CCAECE80026D5D1 /* MealDetailView2.swift in Sources */,
+				7B06CB4D2CCAECE80026D5D1 /* MealDetailViews.swift in Sources */,
 				7B06CB4E2CCAECE80026D5D1 /* ContentView.swift in Sources */,
 				7B06CB4F2CCAECE80026D5D1 /* HealthSyncApp.swift in Sources */,
 			);
